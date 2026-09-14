@@ -1,0 +1,6 @@
+{
+  "scores": [
+    {"player": "Alice", "score": 1500},
+    {"player": "Bob", "score": 1200}
+  ]
+}
