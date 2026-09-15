@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:quinzor/product/product_app.dart';
+import 'package:quinzor/quinzor_app.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: ProductApp()));
-    expect(find.byType(ProductApp), findsOneWidget);
+  testWidgets('QuinzorApp smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const QuinzorApp());
+    expect(find.byType(QuinzorApp), findsOneWidget);
   });
 }
