@@ -4,6 +4,6 @@ import 'package:quinzor/quinzor_app.dart';
 void main() {
   testWidgets('QuinzorApp smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const QuinzorApp());
-    expect(find.byType(QuinzorApp), findsOneWidget);
+    expect(find.text('Quinzor Arcade'), findsOneWidget);
   });
 }
